@@ -1,0 +1,19 @@
+{
+  "ema_alpha": 0.2,
+  "warmup_batches": 1000000000,
+  "update_interval": 1,
+
+  "1": {
+    "candidate_steps": [3],
+    "up_hysteresis": 0.0,
+    "down_hysteresis": 0.0,
+    "ceiling_coeff": 0
+  },
+
+  "32": {
+    "candidate_steps": [0],
+    "up_hysteresis": 0.0,
+    "down_hysteresis": 0.0,
+    "ceiling_coeff": 0
+  }
+}
